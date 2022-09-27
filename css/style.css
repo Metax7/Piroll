@@ -35,10 +35,9 @@ justify-content: space-between;
 .header__logo {
 margin: 38px 0 0px 98px;
 }
-f
+
 .header__menu {
-margin-top: 45px;
-margin-right: 97px;
+margin: 45px;
 }
 
 .header__list {
@@ -88,7 +87,8 @@ align-items: flex-end;
   font-weight: 500;
   letter-spacing: 0.01em;
   color: #1d1d1d;
-  margin: 180px 148px 0px 0px;
+  margin-top: 180px;
+  margin-right: 145px;
 }
 
 .section__body {
