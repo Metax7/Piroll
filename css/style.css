@@ -15,7 +15,9 @@ font-family: 'Nunito Sans', sans-serif;
   position: relative;
   min-height: 670px;
   background-image: url(https://1.bp.blogspot.com/-_B1NQqcUjG4/X58l93-TU-I/AAAAAAAAIAc/D464CPe7jjEm0XrZ7HNSNE8CsUPE2GBfQCLcBGAsYHQ/s960/background-ppt-white-shades.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .content {
@@ -38,7 +40,7 @@ margin: 38px 0 0px 98px;
 }
 
 .header__menu {
-margin: 45px;
+padding: 45px;
 }
 
 .header__list {
@@ -108,11 +110,12 @@ max-width: 476px;
 }
 
 .section__btn {
+  display: block;
   margin-top: 39px;
   width: 180px;
   height: 54px;
 background-color: #10c9c3;
-
+transition: 0.3s
 }
 
 .btn {
@@ -125,6 +128,10 @@ font-weight: 500;
 text-transform: uppercase;
 letter-spacing: 0.1em;
 color: #ffffff;
+}
+
+.section__btn:hover {
+  transform: translateY(-5px) scale(1.1);
 }
 
 .about-us {
@@ -173,7 +180,9 @@ text-align: center;
 padding-bottom: 100px;
 }
 
+.skills {
 
+}
 
 .footer {
 
